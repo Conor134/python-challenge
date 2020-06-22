@@ -18,17 +18,42 @@ with open(csvpath) as csvfile:
     print(f"Header: {csv_header}")
      
     for row in csvreader:
-        total = float(row[1])+ total
-        count = count +1
-        average = total/count
-
-    print("Financial Analysis")
-    print("____________________________")
-    print(f"The Sum of Profits is: ${int(total)}")
+        print(row[1])
+        # if row==2:
+        #     Diff=0
+        #     previousValue = int(row[1])
+        #     print("hello")
+            
+        #     else:
+        #     total = int( row[1]) + total:
+        #     count = count +1
+        #     Diff = int(row[1] - previousValue 
+        #     totalDiff = totalDiff + Diff
     
-    print(f"The total number of months:  {count}")
+        # if maxValue < int(row[1]):
+        #     maxValue = int(row[1])
+        # if minValue > int(row[1]):
+        #     minValue = int(row[1])
 
-    print(f"The average monthly profits is: ${int(average)}")
+
+       
+    # average = total/count
+    # avgChange = totDiff/(count-1)
+
+    # print("Financial Analysis")
+    # print("____________________________")
+    
+    # print(f"The total number of months:  {count}")
+
+    # print(f"The Sum of Profits is: ${int(total)}")
+
+    # print(f"Average Change: ${int(avgChange)}")
+    
+    # print(f"The Greatest Increase is:  {MaxValue}"
+
+    # print(f"The Greatest Decrease is:  {MinValue}")
+
+    # print(f"The average monthly profits is: ${int(average)}")
 
 
     
